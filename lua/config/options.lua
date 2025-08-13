@@ -3,3 +3,4 @@
 -- Add any additional options here
 vim.g.snacks_animate = false
 vim.opt.smoothscroll = false
+vim.g.tmux_navigator_no_mappings = 1
