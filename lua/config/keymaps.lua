@@ -12,6 +12,11 @@ map("n", "<C-h>", "<C-w>h", { desc = "Go to left window" })
 map("n", "j", "gj")
 map("n", "k", "gk")
 
+-- To previous buffer and back
+map("n", "<C-e>", ":e#<CR>", { desc = "Go to previous buffer" })
+
+map("n", "<CR>", ":nohlsearch<CR>", { desc = "Clear selection" })
+
 -- Insert mode mappings (equivalent to imap)
 -- map("i", "jk", "<ESC>", { desc = "Exit insert mode" })
 
