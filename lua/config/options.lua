@@ -4,3 +4,7 @@
 vim.g.snacks_animate = false
 vim.opt.smoothscroll = false
 vim.g.tmux_navigator_no_mappings = 1
+
+local opt = vim.opt
+
+opt.clipboard = vim.env.SSH_TTY and "" or "unnamedplus" -- Sync with system clipboard
